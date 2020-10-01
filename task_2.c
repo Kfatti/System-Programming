@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        printf("The number(s) is/are:\n");
+        printf("The number(s) multiplied by 5%% is/are:\n");
         while ((fscanf(fp, "%d", &i) != EOF))
         {
             printf("%d\n", i * 1.05);
